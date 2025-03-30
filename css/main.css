@@ -512,61 +512,48 @@ h1.navbar-brand {
 	About
 ==================================================================*/
 
-#about {
-    background-color: #6f25cf;
+
+#About {
+    background-image: url(../img/parallax/01.png);
+    padding: 80px;
     color: #fff;
 }
 
-#about h3 {
+#About .sec-title h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+#About .overlay {
+    padding: 100px 0 80px;
+}
+/* #About {
+    background-color: #6f25cf;
+    color: #fff;
+} */
+
+#About h3 {
     color: #fff;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
 
-#about .welcome-block h3 {
+#About .welcome-block h3 {
     margin: 0 0 65px;
 }
 
-#about .welcome-block img {
+#About .welcome-block img {
     border: 10px solid white;
     margin-right: 100px;
     max-width: 275px;
-    shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
-#about .message-body {
+#About .message-body {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 70px;
 }
 
-.owl-buttons {
-    border: 2px solid #fff;
-    display: inline-block;
-    float: right;
-    padding: 1px 8px 5px;
-}
-
-.owl-buttons > div {
-    display: inline-block;
-    padding: 0 5px;
-}
-
-.welcome-message {
-    padding: 0 50px;
-}
-
-.welcome-message img {
-    display: block;
-    height: auto;
-    max-width: 100px;
-    float: left;
-}
-
-.welcome-message p {
-    font-size: 13px;
-    margin-left: 135px;
-}
 
 /*=================================================================
 	Services
@@ -725,6 +712,8 @@ ul.external li a:hover {
 /*=================================================================
 	Testimonials
 ==================================================================*/
+
+
 
 
 #testimonials {
